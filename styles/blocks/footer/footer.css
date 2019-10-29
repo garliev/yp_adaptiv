@@ -1,0 +1,13 @@
+@import url('./__author-link/footer__author-link.css');
+@import url('./__link-list/footer__link-list.css');
+@import url('./__link/footer__link.css');
+@import url('./__item/footer__item.css');
+
+.footer {
+  width: 1184px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Inter-Light';
+  color: #fff;
+}

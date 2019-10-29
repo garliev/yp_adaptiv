@@ -1,0 +1,7 @@
+.lead__img {
+  margin-bottom: 11px;
+  object-fit: cover; 
+  object-position: top left;
+  overflow: hidden;
+  display: block;
+}

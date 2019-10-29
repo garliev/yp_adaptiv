@@ -1,0 +1,13 @@
+.cover__title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: 'Inter-ExtraBold';
+  color: #fff;
+  font-size: 72px;
+  line-height: 78px;
+  margin: 0;
+  white-space: nowrap;
+  z-index: 50;
+}

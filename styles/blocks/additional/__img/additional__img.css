@@ -1,0 +1,7 @@
+.additional__img {
+  border-radius: 5px;
+  width: 100%;
+  display: block;
+  object-fit: cover;
+  object-position: top left;
+}

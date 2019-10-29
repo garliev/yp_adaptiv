@@ -1,0 +1,14 @@
+@import url('../page/__cover/page__cover.css');
+@import url('./__img/cover__img.css');
+@import url('./__subtitle/cover__subtitle.css');
+@import url('./__title/cover__title.css');
+@import url('./__link/cover__link.css');
+@import url('./__pseudo-el/cover__pseudo-el.css');
+
+.cover {
+  width: 1184px;
+  position: relative;
+  color: #fff;
+  font-family: 'Inter-Light';
+  display: block;
+}

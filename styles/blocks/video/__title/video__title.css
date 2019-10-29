@@ -1,0 +1,12 @@
+.video__title {
+  font-family: 'Inter-ExtraBold';
+  font-size: 36px;
+  line-height: 39px;
+  position: absolute;
+  left: 30px;
+  bottom: 61px;
+  margin: 0;
+  width: 320px;
+  color: #fff;
+  z-index: 52;
+}

@@ -1,0 +1,12 @@
+.emblem__list {
+  
+  /* display: flex;
+  justify-content: space-around;
+  align-items: flex-start; */
+  
+
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    
+  
+}

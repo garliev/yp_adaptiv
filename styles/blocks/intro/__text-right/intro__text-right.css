@@ -1,0 +1,9 @@
+.intro__text-right {
+  display: flex;
+  flex-direction: column;
+}
+
+.intro__text-right:last-of-type .intro__text {
+  font-size: 10px;
+  line-height: 16px;
+}

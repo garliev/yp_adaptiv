@@ -1,0 +1,5 @@
+.comment__cards {
+  display: flex;
+  justify-content: space-between;
+  width: 1184px;
+}

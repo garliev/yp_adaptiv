@@ -1,0 +1,11 @@
+@import url('../page/__comment/page__comment.css');
+@import url('./__cards/comment__cards.css');
+@import url('./__img/comment__img.css');
+@import url('./__item/comment__item.css');
+@import url('./__quote/comment__quote.css');
+@import url('./__author/comment__author.css');
+
+.comment {
+  font-family: 'Inter-Light';
+  color: #fff;
+}

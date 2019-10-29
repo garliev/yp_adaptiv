@@ -1,0 +1,8 @@
+.video__duration {
+  position: absolute;
+  bottom: 146px;
+  left: 30px;
+  z-index: 51;
+  color: #fff;
+  margin: 0;
+}

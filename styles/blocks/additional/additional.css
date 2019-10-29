@@ -1,0 +1,11 @@
+@import url('../page/__additional/page__additional.css');
+@import url('./__cards/additional__cards.css');
+@import url('./__heading/additional__heading.css');
+@import url('./__img/additional__img.css');
+@import url('./__item/additional__item.css');
+@import url('./__text/additional__text.css');
+
+.additional {
+  font-family: 'Inter-Light';
+  color: #fff;
+}

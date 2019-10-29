@@ -1,0 +1,8 @@
+.cover__img {
+  object-fit: cover;
+  object-position: top;
+  width: 1184px;
+  border-radius: 5px;
+  display: block;
+}
+

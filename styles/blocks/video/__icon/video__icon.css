@@ -1,0 +1,6 @@
+@import url('./_type/video__icon_type_play.css');
+
+
+.video__icon:hover {
+  animation: pulse 1s ease-in-out infinite alternate running
+}

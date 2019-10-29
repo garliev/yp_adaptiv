@@ -1,0 +1,9 @@
+@import url('./_indent/_bottom/content-title_indent_bottom.css');
+.content-title {
+  font-family: 'Inter-ExtraBold';
+  font-size: 72px;
+  line-height: 78px;
+  width: 800px;
+  text-align: center;
+  color: #fff;
+}

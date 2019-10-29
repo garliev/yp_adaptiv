@@ -1,0 +1,15 @@
+@import url('../page/__intro/page__intro.css');
+@import url('../intro/__title/intro__title.css');
+@import url('../intro/__subtitle/intro__subtitle.css');
+@import url('../intro/__text-container/intro__text-container.css');
+@import url('../intro/__text/intro__text.css');
+@import url('../intro/__text-right/intro__text-right.css');
+@import url('../intro/__text-bold/intro__text-bold.css');
+
+.intro {
+  display: flex;
+  flex-direction: column;
+  max-width: 985px;
+  font-family: 'Inter-Light';
+  color: #fff;
+}

@@ -1,0 +1,19 @@
+@import url('../page/__places/page__places.css');
+@import url('./__image/places__image.css');
+@import url('./__title/place__title.css');
+@import url('./__container/places__container.css');
+@import url('./__text/places__text.css');
+@import url('./__website-container/places__website-container.css');
+@import url('./__link-heading/places__link-heading.css');
+@import url('./__link/places__link.css');
+
+
+.places {
+  max-width: 984px;
+  color: #fff;
+  font-family: 'Inter-Light';
+}
+
+.places__container:not(:last-child) {
+  margin-bottom: 72px;
+}

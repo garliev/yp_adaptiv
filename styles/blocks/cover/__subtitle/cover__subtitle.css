@@ -1,0 +1,15 @@
+.cover__subtitle {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  right: 50%;
+  transform: translate(-50%, -50%);
+  width: 382px;
+  text-align: center;
+  font-size: 18px;
+  line-height: 26px;
+  margin: 0;
+  color: #fff;
+  font-family: 'Inter-Light';
+  z-index: 50;
+}

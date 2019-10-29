@@ -1,0 +1,6 @@
+.video__container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 18px;
+  max-width: 1184px;
+}
