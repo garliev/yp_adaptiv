@@ -4,3 +4,10 @@
   font-family: 'Inter-ExtraBold';
   margin: 0;
 }
+
+@media screen and (max-width: 769px) {
+  .comment__author {
+    order: 1;
+    margin-bottom: 24px;
+  }
+}

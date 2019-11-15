@@ -9,3 +9,21 @@
   justify-content: space-between;
   color: #fff;
 }
+
+@media screen and (max-width: 1025px) {
+  .header {
+    width: calc(100% - 96px);
+  }
+}
+
+@media screen and (max-width: 769px) {
+  .header {
+    width: calc(100% - 48px);
+  }
+}
+
+@media screen and (max-width: 376px) {
+  .header {
+    width: calc(100% - 32px);
+  }
+}

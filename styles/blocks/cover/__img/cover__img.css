@@ -1,8 +1,27 @@
 .cover__img {
   object-fit: cover;
   object-position: top;
-  width: 1184px;
+  width: 100%;
   border-radius: 5px;
   display: block;
+  min-height: 594px;
 }
 
+@media screen and (max-width: 769px) {
+  .cover__img {
+    min-height: 500px;
+  }
+}
+
+
+@media screen and (max-width: 700px) {
+  .cover__img {
+    min-height: 272px;
+  }
+}
+
+@media screen and (max-width: 376px) {
+  .cover__img {
+    min-height: 216px;
+  }
+}

@@ -8,3 +8,11 @@
 .footer__link-list .footer__item:not(:last-child) {
   margin-right: 18px;
 }
+
+
+@media screen and (max-width: 740px) {
+  .footer__link-list {
+    flex-direction: column;
+    margin-bottom: 48px;
+  }
+}

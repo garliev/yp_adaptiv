@@ -1,8 +1,30 @@
 @import url('./__item/cards__item.css');
 @import url('../page/__cards/page__cards.css');
 .cards {
-   width: 1184px;
+  max-width: 1184px;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 16px;
+}
+
+
+@media screen and (max-width: 1025px) {
+  .cards {
+    width: calc(100% - 96px);
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media screen and (max-width: 769px) {
+  .cards {
+    width: calc(100% - 49px);
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 376px) {
+  .cards {
+    width: calc(100% - 32px);
+    grid-template-columns: 1fr;
+  }
 }

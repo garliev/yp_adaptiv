@@ -10,3 +10,20 @@
   color: #fff;
   z-index: 52;
 }
+
+
+
+@media screen and (max-width: 950px) {
+  .video__title {
+    font-size: 24px;
+    line-height: 26px;
+    bottom: 40px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .video__title {
+    width: 250px;
+    font-size: 20px;
+  }
+}

@@ -5,4 +5,14 @@
   z-index: 51;
   color: #fff;
   margin: 0;
+  letter-spacing: 0.3em;
+}
+
+@media screen and (max-width: 950px) {
+  .video__duration {
+    bottom: 95px;
+    font-size: 12px;
+    line-height: 13px;
+    
+  }
 }

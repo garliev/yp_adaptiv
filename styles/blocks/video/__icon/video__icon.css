@@ -1,6 +1,28 @@
 @import url('./_type/video__icon_type_play.css');
 
-
+.video__icon {
+  width: 41px;
+}
 .video__icon:hover {
   animation: pulse 1s ease-in-out infinite alternate running
 }
+
+ @media screen and (max-width: 950px) {
+  .video__icon {
+    top: 24px;
+    left: 24px;
+  }
+} 
+
+
+@media screen and (max-width: 410px) {
+  .video__icon {
+    top: 5px;
+  }
+} 
+
+@media screen and (max-width: 410px) {
+  .video__icon {
+    width: 28px;
+  }
+} 

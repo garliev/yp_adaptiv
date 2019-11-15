@@ -6,9 +6,14 @@
 @import url('./__pseudo-el/cover__pseudo-el.css');
 
 .cover {
-  width: 1184px;
+  max-width: 1184px;
+  width: 100%;
   position: relative;
   color: #fff;
   font-family: 'Inter-Light';
   display: block;
+  
+  
 }
+
+

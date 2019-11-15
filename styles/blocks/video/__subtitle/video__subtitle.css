@@ -6,4 +6,11 @@
   bottom: 30px;
   color: #fff;
   z-index: 53;
+  margin: 0;
+}
+
+@media screen and (max-width: 950px) {
+  .video__subtitle {
+    bottom: 24px;
+  }
 }

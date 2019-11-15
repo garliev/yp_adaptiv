@@ -1,0 +1,13 @@
+@media screen and (max-width: 600px){
+  .places__text-container {
+    grid-row: 3;
+  }
+}
+
+@media screen and (max-width: 376px){
+  .places__text-container {
+    width: calc(100% - 32px);
+    margin: auto;
+  }
+}
+

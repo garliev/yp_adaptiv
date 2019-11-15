@@ -1,3 +1,10 @@
 .page__comment {
   margin-bottom: 102px;
 }
+
+
+@media screen and (max-width: 376px) {
+  .page__comment {
+    margin-bottom: 48px;
+  }
+}

@@ -6,7 +6,21 @@
 @import url('./__img/emblem__img.css');
 
 .emblem {
-  width: 1184px;
+  max-width: 1184px;
   font-family: 'Inter-Light';
   color: #fff;
+}
+
+
+
+@media screen and (max-width: 1025px) {
+  .emblem {
+    width: calc(100% - 96px);
+  }
+}
+
+@media screen and (max-width: 769px) {
+  .emblem {
+    width: calc(100% - 48px);
+  }
 }

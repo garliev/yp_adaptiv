@@ -8,3 +8,13 @@
   left: 18px;
   z-index: 50;
 }
+
+
+
+
+@media screen and (max-width: 1025px) {
+  .additional__heading {
+    font-size: 20px;
+    line-height: 1.2;
+  }
+}

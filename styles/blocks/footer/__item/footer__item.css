@@ -1,0 +1,6 @@
+@media screen and (max-width: 740px) {
+  .footer__item:not(:last-child) {
+    margin-bottom: 32px;
+    margin-right: 0;
+  }
+}

@@ -1,3 +1,9 @@
 .page__video {
   margin-bottom: 102px;
 }
+
+@media screen and (max-width: 376px) {
+  .page__video {
+    margin-bottom: 64px;
+  }
+}

@@ -8,8 +8,10 @@
 @import url('./__icon/video__icon.css');
 @import url('./__title/video__title.css');
 @import url('./__subtitle/video__subtitle.css');
+@import url('./__duration/_position/_bottom/video__duration_position_bottom.css');
 
 .video {
+	max-width: 1184px;
   color: #fff;
   font-family: 'Inter-Light';
 }
@@ -24,3 +26,22 @@
 	  transform: scale(1.5);
 	}
 }
+
+ @media screen and (max-width: 1025px) {
+	.video {
+		width: calc(100% - 96px);
+	}
+} 
+
+@media screen and (max-width: 769px) {
+	.video {
+		width: calc(100% - 48px);
+	}
+} 
+
+
+@media screen and (max-width: 376px) {
+	.video {
+		width: calc(100% - 32px);
+	}
+} 

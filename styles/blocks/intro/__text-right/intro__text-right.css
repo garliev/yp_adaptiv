@@ -7,3 +7,11 @@
   font-size: 10px;
   line-height: 16px;
 }
+
+
+@media screen and (max-width: 925px) {
+  .intro__text-right {
+    order: -1;
+    margin-bottom: 30px;
+  }
+}

@@ -6,6 +6,7 @@
 @import url('./__website-container/places__website-container.css');
 @import url('./__link-heading/places__link-heading.css');
 @import url('./__link/places__link.css');
+@import url('./__text-container/places__text-container.css');
 
 
 .places {
@@ -14,6 +15,22 @@
   font-family: 'Inter-Light';
 }
 
-.places__container:not(:last-child) {
-  margin-bottom: 72px;
+
+
+@media screen and (max-width: 1025px) {
+  .places {
+    width: calc(100% - 96px);
+  }
+}
+
+@media screen and (max-width: 769px) {
+  .places {
+    width: calc(100% - 48px);
+  }
+}
+
+@media screen and (max-width: 376px) {
+  .places {
+    width: 100%;
+  }
 }

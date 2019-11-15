@@ -10,3 +10,10 @@
   line-height: 23px;
   color: #fff;
 }
+
+@media screen and (max-width: 376px) {
+  .header__lang {
+    font-size: 18px;
+    line-height: 17px;
+  }
+}

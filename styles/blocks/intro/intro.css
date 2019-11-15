@@ -13,3 +13,21 @@
   font-family: 'Inter-Light';
   color: #fff;
 }
+
+@media screen and (max-width: 1025px) {
+  .intro {
+    width: calc(100% - 96px);
+  }
+}
+
+@media screen and (max-width: 769px) {
+  .intro {
+    width: calc(100% - 48px);
+  }
+}
+
+@media screen and (max-width: 376px) {
+  .intro {
+    width: calc(100% - 32px);
+  }
+}

@@ -3,3 +3,9 @@
   margin: 0 0 42px 0;
   width: 97px;
 }
+
+@media screen and (max-width: 769px) {
+  .comment__img {
+    margin-bottom: 16px;
+  }
+}

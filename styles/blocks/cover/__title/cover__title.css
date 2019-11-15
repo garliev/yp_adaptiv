@@ -10,4 +10,24 @@
   margin: 0;
   white-space: nowrap;
   z-index: 50;
+  text-align: center;
+  width: 100%;
+ 
+}
+
+
+@media screen and (max-width: 1025px) {
+  .cover__title {
+    transform: translate(-50%, -50%);
+    white-space: normal;
+    max-width: 500px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .cover__title {
+    font-size: 32px;
+    line-height: 35px;
+    max-width: 250px;
+  }
 }

@@ -3,3 +3,10 @@
   vertical-align: top;
   width: 282px;
 }
+
+
+@media screen and (max-width: 769px) {
+  .barentsburg__website-container {
+    display: block;
+  }
+}

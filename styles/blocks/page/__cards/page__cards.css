@@ -1,3 +1,9 @@
 .page__cards {
   margin-bottom: 92px;
 }
+
+@media screen and (max-width: 1025px) {
+  .page__cards {
+    margin-bottom: 102px;
+  }
+}

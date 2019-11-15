@@ -4,3 +4,16 @@
   margin: 0 0 48px 0;
 
 }
+
+@media screen and (max-width: 769px) {
+  .barentsburg__coord {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+
+@media screen and (max-width: 376px) {
+  .barentsburg__coord {
+    margin-bottom: 24px;
+  }
+}

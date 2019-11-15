@@ -11,3 +11,22 @@
   font-family: 'Inter-Light';
   max-width: 985px;
 }
+
+
+@media screen and (max-width: 1025px) {
+  .lead {
+    width: calc(100% - 96px);
+  }
+}
+
+@media screen and (max-width: 769px) {
+  .lead {
+    width: calc(100% - 48px);
+  }
+}
+
+@media screen and (max-width: 376px) {
+  .lead {
+    width: 100%;
+  }
+}

@@ -1,6 +1,35 @@
 .barentsburg__map {
-  width: 1184px;
+  max-width: 1184px;
+  width: 100%;
   height: 464px;
   margin-bottom: 48px;
   display: block;
+  border: none;
+}
+
+
+@media screen and (max-width: 1025px) {
+  .barentsburg__map {
+    max-height: 362px;
+    margin-bottom: 32px;
+  }
+}
+
+
+@media screen and (max-width: 769px) {
+  .barentsburg__map {
+    max-height: 280px;
+  }
+}
+
+@media screen and (max-width: 377px) {
+  .barentsburg__map {
+    max-height: 146px;
+  }
+}
+
+@media screen and (max-width: 321) {
+  .barentsburg__map {
+    max-height: 124px;
+  }
 }

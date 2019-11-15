@@ -3,3 +3,10 @@
   margin-bottom: 35px;
 }
 
+
+@media screen and (max-width: 925px) {
+  .intro__text-container {
+    flex-direction: column;
+    margin-bottom: 32px;
+  }
+}

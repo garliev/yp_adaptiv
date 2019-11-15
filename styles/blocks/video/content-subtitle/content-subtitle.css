@@ -4,7 +4,23 @@
   font-size: 24px;
   line-height: 35px;
   text-align: center;
-  width: 640px;
+  max-width: 640px;
   color: #fff;
   font-family: 'Inter-Light';
+}
+
+@media screen and (max-width: 690px) {
+  .content-subtitle {
+    font-size: 16px;
+    line-height: 23px;
+    margin-bottom: 56px;
+    
+  }
+}
+
+@media screen and (max-width: 376px) {
+  .content-subtitle {
+    margin-bottom: 24px;
+    max-width: 300px;
+  }
 }

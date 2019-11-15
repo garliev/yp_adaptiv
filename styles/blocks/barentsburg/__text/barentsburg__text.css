@@ -5,3 +5,22 @@
   display: inline-block;
   margin: 0 120px 0 0;
 }
+
+
+@media screen and (max-width: 769px) {
+  .barentsburg__text {
+   margin-bottom: 35px; 
+   font-size: 16px;
+   line-height: 27px;
+   margin-right: 0;
+   width: 320px;
+  }
+}
+
+
+@media screen and (max-width: 376px) {
+  .barentsburg__text {
+   width: 250px
+  }
+}
+

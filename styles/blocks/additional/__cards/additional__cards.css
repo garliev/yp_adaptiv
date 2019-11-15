@@ -4,3 +4,25 @@
   max-width: 1184px;
   grid-column-gap: 16px;
 }
+
+@media screen and (max-width: 1025px) {
+  .additional__cards {
+    width: calc(100% - 96px);
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .additional__cards {
+    grid-template-columns: repeat(2, 1fr);
+    width: max-content;
+    grid-row-gap: 16px;
+  }
+}
+
+@media screen and (max-width: 769px) {
+  .additional__cards {
+    grid-template-columns: repeat(1, 1fr);
+    width: max-content;
+    grid-row-gap: 16px;
+  }
+}

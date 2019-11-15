@@ -4,4 +4,5 @@
   object-position: top left;
   overflow: hidden;
   display: block;
+  width: 100%;
 }
